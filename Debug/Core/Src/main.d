@@ -53,11 +53,11 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsm.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsm.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -113,8 +113,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsm.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsm.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:

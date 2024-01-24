@@ -66,8 +66,8 @@ all: main-build
 main-build: SIM_Strength.elf secondary-outputs
 
 # Tool invocations
-SIM_Strength.elf SIM_Strength.map: $(OBJS) $(USER_OBJS) D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\SIM_Strength\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "SIM_Strength.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\SIM_Strength\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SIM_Strength.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SIM_Strength.elf SIM_Strength.map: $(OBJS) $(USER_OBJS) D:\Workspace\RTOS\ Course\RTOS\ Workspace\SIM_Strength\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SIM_Strength.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Workspace\RTOS Course\RTOS Workspace\SIM_Strength\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SIM_Strength.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -4,7 +4,7 @@
 ../Lib/gsm_v5-master/gsm.c:182:6:gsm_unlock	1
 ../Lib/gsm_v5-master/gsm.c:187:6:gsm_init	9
 ../Lib/gsm_v5-master/gsm.c:232:6:gsm_loop	50
-../Lib/gsm_v5-master/gsm.c:485:6:gsm_power	16
+../Lib/gsm_v5-master/gsm.c:485:6:gsm_power	17
 ../Lib/gsm_v5-master/gsm.c:568:6:gsm_registered	1
 ../Lib/gsm_v5-master/gsm.c:573:6:gsm_setDefault	3
 ../Lib/gsm_v5-master/gsm.c:591:6:gsm_saveProfile	3

@@ -1,7 +1,7 @@
 Lib/gsm_v5-master/msg.o: ../Lib/gsm_v5-master/msg.c \
  ../Lib/gsm_v5-master/gsm.h ../Lib/gsm_v5-master/gsmConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -39,7 +39,7 @@ Lib/gsm_v5-master/msg.o: ../Lib/gsm_v5-master/msg.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
@@ -60,8 +60,8 @@ Lib/gsm_v5-master/msg.o: ../Lib/gsm_v5-master/msg.c \
  ../Lib/gsm_v5-master/pdu.h
 ../Lib/gsm_v5-master/gsm.h:
 ../Lib/gsm_v5-master/gsmConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -100,7 +100,7 @@ D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:

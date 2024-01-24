@@ -499,7 +499,7 @@ bool gsm_power(bool on_off)
     gsm.status.turnOff = 1;    
   }
   if (gsm_command("AT\r\n", 1000, NULL, 0, 1, "\r\nOK\r\n") == 1)
-     ;
+    state = 1;
   if ((on_off == true) && (state == 1))
   {
     memset(&gsm.status, 0, sizeof(gsm.status));
@@ -520,9 +520,9 @@ bool gsm_power(bool on_off)
     else
       gsm.status.turnOff = 1; 
     HAL_GPIO_WritePin(_GSM_KEY_GPIO, _GSM_KEY_PIN, GPIO_PIN_RESET);
-//    gsm_delay(1500);
+    gsm_delay(1500);
     HAL_GPIO_WritePin(_GSM_KEY_GPIO, _GSM_KEY_PIN, GPIO_PIN_SET);
-//    gsm_delay(3000);
+    gsm_delay(3000);
     for (uint8_t i = 0; i < 5; i++)
     {
       if (gsm_command("AT\r\n", 1000, NULL, 0, 1, "\r\nOK\r\n") == 1)
@@ -781,7 +781,7 @@ uint8_t gsm_getSignalQuality_0_to_100(void)
   if (p1 == 99)
     gsm.signal = 0;
   else
-    gsm.signal = (p1 * 100) / 31;
+    gsm.signal = p1;
   gsm_printf("[GSM] getSignalQuality_0_to_100() done\r\n");
   gsm_unlock();
   return gsm.signal;

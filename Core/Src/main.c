@@ -101,7 +101,7 @@ int main(void)
 
   status = xTaskCreate(gsm_msg_handler,
               "GSM_msg_task",
-              200,
+              512,
               NULL,
               2,
               &task_handle
@@ -111,7 +111,7 @@ int main(void)
 
   status = xTaskCreate(gsm_handler,
               "GSM_task",
-              200,
+              512,
               NULL,
               2,
               &task1_handle
@@ -410,24 +410,30 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
-static void gsm_handler(void* parameters)
-{
 
-	while(1)
-	{
-		gsm_getSignalQuality_0_to_100();
-	}
-}
 
 static void gsm_msg_handler(void* parameters)
 {
-	gsm_init();
-	gsm_power(true);
-	while(1)
+	while (1)
 	{
-		gsm_msg_send("+919074418771", "Hi");
+//		gsm_getSignalQuality_0_to_100();
 	}
 }
+
+static void gsm_handler(void* parameters)
+{
+	  //gsm_waitForRegister(30);
+	  gsm_init();
+	  gsm_power(true);
+	  gsm_msg_send("+919020770234", "Hello! This is a test message from Mathew");
+	  while (1)
+	  {
+//		  gsm_msg_send("+919020770234", "TEST MSG 1");
+	  }
+}
+
+
+
 
 /* USER CODE END 4 */
 

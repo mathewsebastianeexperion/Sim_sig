@@ -227,7 +227,7 @@ bool gsm_msg_send(const char *number, const char *msg)
   // +++ pdu mode
   else if(gsm.msg.textMode == 0)
   {		
-    int messageLen = PDU_encode(NULL, false, false, false, 0, 0, number, 0, msg, 0);
+	int messageLen = PDU_encode(NULL, false, false, false, 0, 0, number, 0, msg, 0);
     if(messageLen > 0)
     {
       sprintf(str, "AT+CMGS=%d\r\n", messageLen);

@@ -44,11 +44,11 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsm.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h \
- D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsm.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h \
+ D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
@@ -105,11 +105,11 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsm.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atc.h:
-D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsm.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/gsm_v5-master/gsmConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atc.h:
+D:/Workspace/RTOS\ Course/RTOS\ Workspace/SIM_Strength/Lib/atc-master/atcConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
